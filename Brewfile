@@ -14,6 +14,7 @@ brew 'oven-sh/bun/bun'
 brew 'stow'
 brew 'uv'
 brew 'zellij'
+brew 'zola'
 brew 'zoxide'
 
 cask '1password'
