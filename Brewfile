@@ -2,6 +2,7 @@ tap 'oven-sh/bun'
 
 brew 'atuin'
 brew 'bat'
+brew 'duckdb'
 brew 'fish'
 brew 'fzf'
 brew 'git'
