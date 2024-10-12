@@ -4,6 +4,7 @@
 PREFIX ?= "$(HOME)/Builds"
 
 # Run this first when setting up a new machine.
+# NOTE(michael): Currently unfinished.
 bootstrap:
 	xcode-select --install
 	sudo xcodebuild -license accept
