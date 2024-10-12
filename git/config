@@ -1,0 +1,20 @@
+[user]
+	name = Michael Byrne
+	email = michael@michaelbyrne.au
+	username = MichaelByrneAU
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFOF62FNottAeffn2E3Q0YDdAB0rzLEjgNF4t0x94sU1
+
+[init]
+	defaultBranch = main
+
+[core]
+	excludesfile = ignore
+
+[gpg]
+	format = ssh
+
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+
+[commit]
+	gpgsign = true

@@ -1,0 +1,42 @@
+theme = "catppuccin_mocha"
+
+[editor]
+cursorline = true
+line-number = "relative"
+mouse = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[editor.statusline]
+left = [
+  "mode",
+  "spinner",
+  "file-name",
+  "file-modification-indicator",
+  "read-only-indicator",
+]
+center = ["version-control"]
+right = [
+  "diagnostics",
+  "selections",
+  "register",
+  "position-percentage",
+  "position",
+]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.file-picker]
+hidden = true
+
+[editor.lsp]
+snippets = true
+auto-signature-help = false
+display-inlay-hints = false
