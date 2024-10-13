@@ -8,6 +8,7 @@ fish_vi_key_bindings
 set -gx VISUAL hx
 set -gx RUSTUP_HOME $HOME/Builds/rustup
 set -gx CARGO_HOME $HOME/Builds/cargo
+set -gx MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
 # Define the builds prefix. 
 set -l PREFIX $HOME/Builds

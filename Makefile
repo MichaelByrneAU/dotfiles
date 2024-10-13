@@ -32,6 +32,9 @@ install-dotfiles:
 	mkdir -p $(HOME)/.config/git
 	stow --target $(HOME)/.config/git git
 
+	mkdir -p $(HOME)/.config/bat
+	stow --target $(HOME)/.config/bat bat
+
 # Install Rustup to a custom prefix.
 install-rustup:
 	chmod +x ./scripts/install-rustup.fish

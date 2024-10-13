@@ -10,7 +10,7 @@ config.default_prog = { '/opt/homebrew/bin/fish' }
 config.color_scheme       = 'Catppuccin Mocha'
 config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
 
-config.font        = wezterm.font('Iosevka Custom' , { weight = 'Medium' })
+config.font        = wezterm.font('Iosevka Nerd Font Mono' , { weight = 'Medium' })
 config.font_size   = 14.5
 config.line_height = 1.1
 
