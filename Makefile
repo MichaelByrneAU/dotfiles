@@ -53,6 +53,7 @@ install-completions:
 # Update everything that can be updated. 
 update-everything:
 	brew update
+	brew upgrade
 	brew cleanup
 	rustup update
 	zigup master --install-dir ~/Builds/zigup/zig --path-link ~/Builds/zigup/bin/zig

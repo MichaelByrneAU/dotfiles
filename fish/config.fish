@@ -15,6 +15,7 @@ set -l PREFIX $HOME/Builds
 
 # Path.
 fish_add_path /opt/homebrew/bin
+fish_add_path /opt/homebrew/sbin
 fish_add_path $PREFIX/cargo/bin
 fish_add_path $PREFIX/zigup/bin
 
